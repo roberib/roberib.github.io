@@ -5,6 +5,10 @@ baseurl: ""
 lang: es
 author: Roberto Insua Brandariz
 
+# Large preview cards when a post is shared (jekyll-seo-tag reads this).
+twitter:
+  card: summary_large_image
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap

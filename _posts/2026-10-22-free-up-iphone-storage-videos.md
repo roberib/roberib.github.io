@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "How to free up iPhone storage by deleting the videos that take up the most space"
+title: "How to free up iPhone storage by deleting videos"
 description: "Videos, not photos, are usually what fills an iPhone. How to find the heaviest ones, delete them for real, and keep it from happening again."
 lang: en
 ref: videos-storage
 app: limina
+image: /assets/img/limina/en-deck.jpg
 cta: "Go through your library one swipe at a time: one way to keep, the other to delete. Its Videos mode shows you the longest ones first."
 permalink: /en/blog/free-up-iphone-storage-videos/
 ---
@@ -68,8 +69,19 @@ Doing all this by hand works, but it is slow. [Limina](https://apps.apple.com/ap
 is an app I made for exactly this: it shows you your library one item at a
 time and you swipe to keep or delete. Its **Videos** mode starts with the
 longest ones, which is where the gigabytes really are, and when you finish it
-tells you how much you freed. Everything deleted goes to Recently Deleted, so
+tells you how much you are about to free. Everything deleted goes to Recently Deleted, so
 there is always a way back.
+
+<figure class="shots">
+  <img src="/assets/img/limina/en-home.jpg" width="600" height="1304" loading="lazy" alt="Limina's home screen: space freed to date and the Photos, Videos and Live Photos categories">
+  <img src="/assets/img/limina/en-deck.jpg" width="600" height="1304" loading="lazy" alt="Limina's Videos mode: one video with its date, duration, resolution and size, and the buttons to delete or keep it">
+  <figcaption>Videos mode shows each video's duration, resolution and size before you decide.</figcaption>
+</figure>
+
+<figure class="shots single">
+  <img src="/assets/img/limina/en-summary.jpg" width="600" height="536" loading="lazy" alt="Limina's round summary: 8.2 MB marked for deletion across two videos">
+  <figcaption>At the end of a round you see how much you are about to free. Nothing is deleted until you confirm.</figcaption>
+</figure>
 
 It all happens on your iPhone: no account, nothing uploaded anywhere, and no
 ads. Reviewing photos is free every day; Videos mode is part of Limina Pro.

@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Cómo liberar espacio en el iPhone borrando los vídeos que más ocupan"
+title: "Cómo liberar espacio en el iPhone borrando vídeos"
 description: "Los vídeos, no las fotos, son lo que suele llenar el iPhone. Cómo encontrar los más pesados, borrarlos de verdad y evitar que vuelva a pasar."
 lang: es
 ref: videos-storage
 app: limina
+image: /assets/img/limina/es-deck.jpg
 cta: "Repasa la fototeca deslizando: a un lado lo que se queda, al otro lo que se va. El modo Vídeos te enseña primero los más largos."
 permalink: /blog/liberar-espacio-iphone-videos/
 ---
@@ -66,8 +67,19 @@ Hacer todo esto a mano funciona, pero es lento. [Limina](https://apps.apple.com/
 es una app que he hecho yo para exactamente esto: te enseña la fototeca de una
 en una y tú deslizas para quedártela o borrarla. Su modo **Vídeos** empieza por
 los más largos, que es donde están de verdad los gigas, y al terminar te dice
-cuánto has liberado. Lo borrado va a «Eliminado recientemente», así que siempre
+cuánto vas a liberar. Lo borrado va a «Eliminado recientemente», así que siempre
 hay vuelta atrás.
+
+<figure class="shots">
+  <img src="/assets/img/limina/es-home.jpg" width="600" height="1304" loading="lazy" alt="Pantalla de inicio de Limina: lo liberado hasta hoy y las categorías Fotos, Vídeos y Live Photos">
+  <img src="/assets/img/limina/es-deck.jpg" width="600" height="1304" loading="lazy" alt="Modo Vídeos de Limina: un vídeo con su fecha, duración, resolución y tamaño, y los botones para borrar o conservar">
+  <figcaption>El modo Vídeos enseña la duración, la resolución y el tamaño de cada vídeo antes de decidir.</figcaption>
+</figure>
+
+<figure class="shots single">
+  <img src="/assets/img/limina/es-summary.jpg" width="600" height="536" loading="lazy" alt="Resumen de la ronda en Limina: 8,2 MB marcados para borrar en dos vídeos">
+  <figcaption>Al acabar la ronda ves cuánto vas a liberar. No se borra nada hasta que lo confirmas.</figcaption>
+</figure>
 
 Todo pasa en el iPhone: sin cuentas, sin subir nada a ningún sitio y sin
 anuncios. Repasar fotos es gratis cada día; el modo Vídeos es parte de
