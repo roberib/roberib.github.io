@@ -1,0 +1,30 @@
+title: roberib
+description: Apps para iPhone y guías para sacarles partido.
+url: https://roberib.github.io
+baseurl: ""
+lang: es
+author: Roberto Insua Brandariz
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# The App Store id also drives Safari's Smart App Banner on any page or post
+# that sets `app: <key>` in its front matter.
+apps:
+  limina:
+    name: Limina
+    id: "6804942727"
+    url: https://apps.apple.com/app/id6804942727
+  robthephone:
+    name: "Rob the Phone: Caja fuerte"
+    id: "6820557806"
+    url: https://apps.apple.com/app/id6820557806
+  diedro:
+    name: "Diedro: Medidor de Ángulos"
+    id: "6818955422"
+    url: https://apps.apple.com/app/id6818955422
+
+exclude:
+  - README.md

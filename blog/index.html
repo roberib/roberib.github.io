@@ -1,0 +1,15 @@
+---
+layout: default
+title: Blog
+description: Guías para sacar más partido al iPhone, de quien hace Limina, Rob the Phone y Diedro.
+lang: es
+ref: blog
+permalink: /blog/
+---
+<h1>Blog</h1>
+<ul class="posts">
+{% for post in site.posts %}{% if post.lang == "es" %}
+  <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{% endif %}{% endfor %}
+</ul>
+<p class="meta"><a href="{{ '/en/blog/' | relative_url }}" hreflang="en" lang="en">English</a></p>

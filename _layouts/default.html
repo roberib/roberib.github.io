@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% if page.app %}<meta name="apple-itunes-app" content="app-id={{ site.apps[page.app].id }}">
+{% endif %}{% seo %}
+{% if page.ref %}{% assign everything = site.posts | concat: site.pages %}{% assign translations = everything | where: "ref", page.ref %}{% for t in translations %}<link rel="alternate" hreflang="{{ t.lang }}" href="{{ t.url | absolute_url }}">
+{% endfor %}{% assign english = translations | where: "lang", "en" | first %}{% if english %}<link rel="alternate" hreflang="x-default" href="{{ english.url | absolute_url }}">
+{% endif %}{% endif %}{% feed_meta %}
+<link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+</head>
+<body>
+<header class="site">
+  <a href="{{ '/' | relative_url }}">roberib</a>
+  {% if page.lang == "en" %}<a href="{{ '/en/blog/' | relative_url }}">Blog</a>{% else %}<a href="{{ '/blog/' | relative_url }}">Blog</a>{% endif %}
+</header>
+<main>
+{{ content }}
+</main>
+<footer class="site">
+  {% if page.lang == "en" %}
+  <a href="https://roberib.github.io/legal/">Privacy and support</a>
+  {% else %}
+  <a href="https://roberib.github.io/legal/">Privacidad y soporte</a>
+  {% endif %}
+</footer>
+</body>
+</html>

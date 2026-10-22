@@ -1,0 +1,6 @@
+{% assign app = site.apps[include.app] %}
+<aside class="cta">
+  <p class="cta-name">{{ app.name }}</p>
+  {% if page.cta %}<p>{{ page.cta }}</p>{% endif %}
+  <a class="cta-button" href="{{ app.url }}">{% if page.lang == "en" %}View on the App Store{% else %}Ver en el App Store{% endif %}</a>
+</aside>

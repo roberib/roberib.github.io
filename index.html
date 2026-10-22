@@ -1,10 +1,19 @@
-<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<title>roberib</title>
-</head>
-<body>
-<p><a href="https://roberib.github.io/legal/">Privacidad y soporte de las apps</a></p>
-</body>
-</html>
+---
+layout: default
+title: roberib
+description: Apps para iPhone de Roberto Insua Brandariz, y un blog con guías para sacarles partido.
+lang: es
+---
+<h1>Apps para iPhone</h1>
+<ul class="posts">
+{% for entry in site.apps %}{% assign app = entry[1] %}
+  <li><a href="{{ app.url }}">{{ app.name }}</a></li>
+{% endfor %}
+</ul>
+<h2>Blog</h2>
+<ul class="posts">
+{% for post in site.posts limit: 5 %}{% if post.lang == "es" %}
+  <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{% endif %}{% endfor %}
+</ul>
+<p class="meta"><a href="{{ '/blog/' | relative_url }}">Todas las entradas</a> · <a href="{{ '/en/blog/' | relative_url }}" hreflang="en" lang="en">English</a></p>
