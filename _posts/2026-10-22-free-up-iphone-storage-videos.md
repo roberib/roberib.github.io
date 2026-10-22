@@ -44,8 +44,9 @@ open it and swipe up.
 
 Deleting a video does not free any space yet: it goes to the **Recently
 Deleted** album, where iOS keeps it for 30 days in case you change your mind.
-To get the space back now, scroll down in Photos to **Utilities › Recently
-Deleted**, tap **Select**, and delete what you do not want.
+To get the space back now, in Photos go to **Collections › Recently Deleted**
+(under Utilities), unlock it with Face ID, tap **Select**, and delete what you
+do not want.
 
 <p class="note">Careful if you use iCloud Photos: deleting a video on your
 iPhone also deletes it on your other devices and in iCloud. If you want to

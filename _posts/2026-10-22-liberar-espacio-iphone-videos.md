@@ -38,12 +38,13 @@ Fotos no ordena por tamaño, pero la duración que ves en cada miniatura es una
 buena pista: a igual calidad, más largo es más pesado. Para ver el tamaño exacto
 de uno, ábrelo y desliza hacia arriba.
 
-## 3. Bórralos… y vacía «Eliminado recientemente»
+## 3. Bórralos… y vacía «Eliminados»
 
-Al borrar un vídeo no se libera espacio todavía: va al álbum **Eliminado
-recientemente**, donde iOS lo guarda 30 días por si te arrepientes. Para
-recuperar el espacio ya, en Fotos baja hasta **Utilidades › Eliminado
-recientemente**, toca **Seleccionar** y elimina lo que no quieras.
+Al borrar un vídeo no se libera espacio todavía: va a la colección
+**Eliminados**, donde iOS lo guarda 30 días por si te arrepientes. Para
+recuperar el espacio ya, en Fotos ve a **Colecciones › Más ítems ›
+Eliminados**, desbloquéala con Face ID, toca **Seleccionar** y elimina lo que
+no quieras.
 
 <p class="note">Ojo si usas Fotos de iCloud: borrar un vídeo en el iPhone lo
 borra también en tus otros dispositivos y en iCloud. Si quieres guardarlo,
@@ -67,8 +68,8 @@ Hacer todo esto a mano funciona, pero es lento. [Limina](https://apps.apple.com/
 es una app que he hecho yo para exactamente esto: te enseña la fototeca de una
 en una y tú deslizas para quedártela o borrarla. Su modo **Vídeos** empieza por
 los más largos, que es donde están de verdad los gigas, y al terminar te dice
-cuánto vas a liberar. Lo borrado va a «Eliminado recientemente», así que siempre
-hay vuelta atrás.
+cuánto vas a liberar. Lo borrado va a «Eliminados», así que siempre hay vuelta
+atrás.
 
 <figure class="shots">
   <img src="/assets/img/limina/es-home.jpg" width="600" height="1304" loading="lazy" alt="Pantalla de inicio de Limina: lo liberado hasta hoy y las categorías Fotos, Vídeos y Live Photos">
