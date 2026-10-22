@@ -5,7 +5,7 @@ description: "Plug a flash drive or SSD into your iPhone and go through its phot
 lang: en
 ref: external-disk
 app: limina
-image: /assets/img/limina/en-home.jpg
+image: /assets/img/limina/en-disk.jpg
 cta: "Plug in the drive and go through it with the same swipes as your library: all of it or one folder, with the longest videos and repeated photos first."
 permalink: /en/blog/clean-usb-ssd-from-iphone/
 ---
@@ -62,11 +62,16 @@ cleaning up your library with a swipe, and it reads external drives too. In
 **External disk** you choose the drive, all of it or just one folder, and go
 through it with the same swipes: one way to keep, the other to delete.
 
-- **Photos on the disk**: the oldest first.
-- **Videos on the disk**: the longest first, which is where the gigabytes are.
-- **Similar on the disk**: near-identical shots and copies of the same photo,
-  grouped so you keep just one.
-- **Largest on the disk**: photos and videos, the biggest first.
+- **Photos**: the oldest first.
+- **Videos**: the longest first, which is where the gigabytes are.
+- **Similar**: near-identical shots and copies of the same photo, grouped so
+  you keep just one.
+- **Biggest files**: photos and videos, the biggest first.
+
+<figure class="shots wide">
+  <img src="/assets/img/limina/en-disk.jpg" width="800" height="660" loading="lazy" alt="Limina on an iPad with an SSD named Travel SSD: 47 files, a notice that the disk has no Trash, and the Photos, Videos, Similar and Biggest files modes">
+  <figcaption>An SSD plugged into an iPad: its modes, and the notice that this disk has no Trash.</figcaption>
+</figure>
 
 Before deleting, it tells you where things will go: to the drive's Trash or,
 if the drive has none, that they cannot be recovered. If you unplug it

@@ -5,7 +5,7 @@ description: "Conecta un pendrive o un SSD al iPhone y repasa sus fotos y vídeo
 lang: es
 ref: external-disk
 app: limina
-image: /assets/img/limina/es-home.jpg
+image: /assets/img/limina/es-disk.jpg
 cta: "Conecta el disco y repásalo con los mismos gestos que tu fototeca: entero o solo una carpeta, con los vídeos más largos y las fotos repetidas primero."
 permalink: /blog/limpiar-usb-ssd-desde-iphone/
 ---
@@ -62,11 +62,16 @@ para limpiar la fototeca deslizando, y también lee discos externos. En
 **Disco externo** eliges el disco, entero o solo una carpeta, y lo repasas con
 los mismos gestos: a un lado lo que se queda, al otro lo que se va.
 
-- **Fotos del disco**: las más antiguas primero.
-- **Vídeos del disco**: los más largos primero, que es donde están los gigas.
-- **Similares del disco**: fotos casi idénticas y copias de la misma foto,
-  agrupadas para que te quedes con una.
-- **Lo más grande del disco**: fotos y vídeos, los más grandes primero.
+- **Fotos**: las más antiguas primero.
+- **Vídeos**: los más largos primero, que es donde están los gigas.
+- **Similares**: fotos casi idénticas y copias de la misma foto, agrupadas
+  para que te quedes con una.
+- **Archivos más grandes**: fotos y vídeos, los más grandes primero.
+
+<figure class="shots wide">
+  <img src="/assets/img/limina/es-disk.jpg" width="800" height="660" loading="lazy" alt="Limina en un iPad con un SSD llamado Travel SSD: 47 archivos, el aviso de que el disco no tiene papelera y los modos Fotos, Vídeos, Similares y Archivos más grandes">
+  <figcaption>Un SSD conectado a un iPad: sus modos, y el aviso de que este disco no tiene papelera.</figcaption>
+</figure>
 
 Antes de borrar te avisa de adónde va lo eliminado: a la papelera del disco
 o, si el disco no tiene, de que no se podrá recuperar. Si lo desconectas a

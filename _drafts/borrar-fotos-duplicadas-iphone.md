@@ -5,7 +5,7 @@ description: "Copias repetidas, ráfagas y cinco disparos casi iguales del mismo
 lang: es
 ref: duplicates
 app: limina
-image: /assets/img/limina/es-home.jpg
+image: /assets/img/limina/es-bursts.jpg
 cta: "Te enseña cada ráfaga entera, con la mejor foto marcada: eliges las que se quedan y el resto se va de un toque."
 permalink: /blog/borrar-fotos-duplicadas-iphone/
 ---
@@ -74,6 +74,12 @@ para limpiar la fototeca deslizando. Para las repetidas tiene dos modos:
 - **Similares** (Limina Pro): encuentra las fotos casi idénticas que hiciste a
   mano, las del mismo segundo y el mismo sitio, y te las enseña igual que una
   ráfaga. Es justo el caso que Fotos no cubre.
+
+<figure class="shots">
+  <img src="/assets/img/limina/es-bursts.jpg" width="600" height="1304" loading="lazy" alt="Modo Ráfagas de Limina: una foto de cuatro amigos con la estrella de recomendada, las cuatro fotos de la ráfaga en miniatura y el botón Borrar 3 · 4 MB">
+  <img src="/assets/img/limina/es-similar.jpg" width="600" height="1304" loading="lazy" alt="Modo Similares de Limina: tres fotos casi iguales de dos amigas, con la mejor marcada y el botón Borrar 2 · 2,2 MB">
+  <figcaption>Ráfagas y Similares: la estrella marca la foto que Limina recomienda, pero eres tú quien decide cuáles se quedan.</figcaption>
+</figure>
 
 Para recomendar una foto, Limina compara en el propio iPhone cuál ha salido
 mejor, con las caras incluidas. Al acabar la ronda te dice cuánto espacio vas

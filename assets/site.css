@@ -118,6 +118,7 @@ figure.shots {
 }
 
 figure.shots.single { grid-template-columns: 1fr; max-width: 360px; }
+figure.shots.wide { grid-template-columns: 1fr; }
 
 figure.shots img {
   width: 100%;

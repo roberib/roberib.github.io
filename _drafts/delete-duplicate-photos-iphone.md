@@ -5,7 +5,7 @@ description: "Exact copies, bursts and five near-identical shots of the same mom
 lang: en
 ref: duplicates
 app: limina
-image: /assets/img/limina/en-home.jpg
+image: /assets/img/limina/en-bursts.jpg
 cta: "It shows you each burst whole, with the best shot marked: pick the ones to keep and the rest go in one tap."
 permalink: /en/blog/delete-duplicate-photos-iphone/
 ---
@@ -73,6 +73,12 @@ cleaning up your library with a swipe. For duplicates it has two modes:
 - **Similar** (Limina Pro): it finds the near-identical photos you took by
   hand, the ones from the same second and the same place, and shows them to
   you just like a burst. That is exactly the case Photos does not cover.
+
+<figure class="shots">
+  <img src="/assets/img/limina/en-bursts.jpg" width="600" height="1304" loading="lazy" alt="Limina's Bursts mode: a photo of four friends with the recommended star, the burst's four shots as thumbnails and the Delete 3 · 4 MB button">
+  <img src="/assets/img/limina/en-similar.jpg" width="600" height="1304" loading="lazy" alt="Limina's Similar mode: three near-identical photos of two friends, the best one marked, and the Delete 2 · 2.2 MB button">
+  <figcaption>Bursts and Similar: the star marks the photo Limina recommends, but you decide which ones stay.</figcaption>
+</figure>
 
 To recommend a photo, Limina works out on the iPhone itself which shot came
 out best, faces included. At the end of a round it tells you how much space
