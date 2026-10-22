@@ -131,3 +131,20 @@ figure.shots figcaption {
   font-size: 0.9rem;
   color: var(--caption);
 }
+
+table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 0 0 24px;
+  font-size: 0.9rem;
+}
+
+th, td {
+  padding: 8px 12px 8px 0;
+  border-bottom: 1px solid var(--rule);
+  text-align: left;
+  vertical-align: top;
+}
+
+th { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.8rem; color: var(--caption); font-weight: 500; }
