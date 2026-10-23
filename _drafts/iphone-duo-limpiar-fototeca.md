@@ -10,8 +10,8 @@ cta: "Repasa la fototeca deslizando, a dos páginas con el Duo abierto: la foto 
 permalink: /blog/iphone-duo-limpiar-fototeca/
 ---
 
-El iPhone Duo, el primer iPhone plegable, sale a la venta el 23 de octubre de
-2026. Si vienes de otro iPhone, al restaurar la copia te traes toda la
+El iPhone Duo, el primer iPhone plegable, está a la venta desde el 23 de
+octubre de 2026. Si vienes de otro iPhone, al restaurar la copia te traes toda la
 fototeca: años de capturas, ráfagas y vídeos que no vas a volver a ver. Es el
 mejor momento para limpiarla, y la pantalla interior del Duo, de 7,6 pulgadas
 y la más grande de un iPhone según Apple, ayuda a ver bien lo que borras.

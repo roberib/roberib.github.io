@@ -10,8 +10,8 @@ cta: "Go through your library with a swipe, on two pages with the Duo open: the 
 permalink: /en/blog/iphone-duo-clean-up-photos/
 ---
 
-iPhone Duo, the first foldable iPhone, goes on sale on October 23, 2026. If
-you are coming from another iPhone, restoring your backup brings your whole
+iPhone Duo, the first foldable iPhone, has been on sale since October 23,
+2026. If you are coming from another iPhone, restoring your backup brings your whole
 library with it: years of screenshots, bursts and videos you will never watch
 again. It is the best moment to clean it up, and the Duo's 7.6-inch inner
 display, the largest iPhone display ever according to Apple, helps you see

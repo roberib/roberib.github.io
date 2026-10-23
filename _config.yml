@@ -14,8 +14,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# The App Store id also drives Safari's Smart App Banner on any page or post
-# that sets `app: <key>` in its front matter.
+# `name_en`, when an app has one, is its name on the English store and on
+# English pages. The App Store id also drives Safari's Smart App Banner on
+# any page or post that sets `app: <key>` in its front matter.
 apps:
   limina:
     name: Limina
@@ -23,10 +24,12 @@ apps:
     url: https://apps.apple.com/app/id6804942727
   robthephone:
     name: "Rob the Phone: Caja fuerte"
+    name_en: "Rob the Phone: Safe Cracker"
     id: "6820557806"
     url: https://apps.apple.com/app/id6820557806
   diedro:
     name: "Diedro: Medidor de Ángulos"
+    name_en: "Diedro Angle Finder & Level"
     id: "6818955422"
     url: https://apps.apple.com/app/id6818955422
 
