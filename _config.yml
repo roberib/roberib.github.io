@@ -5,6 +5,11 @@ baseurl: ""
 lang: es
 author: Roberto Insua Brandariz
 
+# Search Console's ownership check; jekyll-seo-tag turns it into the
+# google-site-verification meta tag on every page.
+webmaster_verifications:
+  google: KiAMOQGBU2Tl61JTFBeiubuakuCTcIYIaREsecRobDo
+
 # Large preview cards when a post is shared (jekyll-seo-tag reads this).
 twitter:
   card: summary_large_image
