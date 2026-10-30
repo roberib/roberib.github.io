@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to clean up photos and videos on a USB drive or SSD from your iPhone"
+title: "How to clean up photos on a USB drive or SSD from iPhone"
 description: "Plug a flash drive or SSD into your iPhone and go through its photos and videos without a computer: the adapter and format you need, and how to delete what you do not."
 lang: en
 ref: external-disk

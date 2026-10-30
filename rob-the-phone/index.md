@@ -3,7 +3,7 @@ layout: app
 app: robthephone
 lang: es
 ref: app-robthephone
-title: "Rob the Phone: abre la caja fuerte con la bisagra del iPhone Duo"
+title: "Rob the Phone: abre la caja fuerte con la bisagra"
 description: "Un juego de atracos en el que el teléfono es el dial: ábrelo y ciérralo para girarlo, escucha los clics y abre la caja antes de que salte la alarma."
 image: /assets/img/robthephone/es-dial.jpg
 permalink: /rob-the-phone/

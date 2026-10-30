@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to measure angles with your iPhone: level, corners, ruler"
+title: "Measure angles with your iPhone: level, corners, ruler"
 description: "Your iPhone has a level in the Measure app. How to use it, what it cannot measure (the corner between two walls) and how to measure that, even with iPhone Duo's hinge."
 lang: en
 ref: angles
