@@ -21,22 +21,46 @@ plugins:
 
 # `name_en`, when an app has one, is its name on the English store and on
 # English pages. The App Store id also drives Safari's Smart App Banner on
-# any page or post that sets `app: <key>` in its front matter.
+# any page or post that sets `app: <key>` in its front matter. `page` is the
+# app's own page on this site (`/en` in front of it for the English one), and
+# `tagline` its App Store subtitle.
 apps:
   limina:
     name: Limina
     id: "6804942727"
     url: https://apps.apple.com/app/id6804942727
+    page: /limina/
+    icon: /assets/img/limina/icon.png
+    tagline: Borrar fotos y liberar espacio
+    tagline_en: Clean up storage, USB & SSD
+    legal: https://roberib.github.io/legal/limina/
   robthephone:
     name: "Rob the Phone: Caja fuerte"
     name_en: "Rob the Phone: Safe Cracker"
     id: "6820557806"
     url: https://apps.apple.com/app/id6820557806
+    page: /rob-the-phone/
+    icon: /assets/img/robthephone/icon.png
+    tagline: Atraco de oído, juego plegable
+    tagline_en: Foldable heist game by ear
+    legal: https://roberib.github.io/legal/cajafuerte/
   diedro:
     name: "Diedro: Medidor de Ángulos"
     name_en: "Diedro Angle Finder & Level"
     id: "6818955422"
     url: https://apps.apple.com/app/id6818955422
+    page: /diedro/
+    icon: /assets/img/diedro/icon.png
+    tagline: Transportador, nivel y regla
+    tagline_en: Protractor, clinometer, ruler
+    legal: https://roberib.github.io/legal/diedro/
 
 exclude:
   - README.md
+
+# Search Console's ownership file is not a page anyone should land on.
+defaults:
+  - scope:
+      path: google8ecd0c09eb5b50d6.html
+    values:
+      sitemap: false

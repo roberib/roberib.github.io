@@ -1,0 +1,24 @@
+---
+layout: default
+title: roberib
+description: iPhone apps by Roberto Insua Brandariz, and a blog with guides to get more out of them.
+lang: en
+ref: home
+permalink: /en/
+---
+<h1>iPhone apps</h1>
+<ul class="apps">
+{% for entry in site.apps %}{% assign app = entry[1] %}
+  <li><a href="{{ '/en' | append: app.page | relative_url }}">
+    <img class="icon" src="{{ app.icon | relative_url }}" alt="" width="64" height="64">
+    <span><strong>{{ app.name_en | default: app.name }}</strong><span class="tagline">{{ app.tagline_en }}</span></span>
+  </a></li>
+{% endfor %}
+</ul>
+<h2>From the blog</h2>
+<ul class="posts">
+{% assign posts = site.posts | where: "lang", "en" %}{% for post in posts limit: 5 %}
+  <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+<p class="meta"><a href="{{ '/en/blog/' | relative_url }}">All posts</a> · <a href="{{ '/' | relative_url }}" hreflang="es" lang="es">Español</a></p>

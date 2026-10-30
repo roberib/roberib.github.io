@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% assign app = site.apps[page.app] %}{% assign en = false %}{% if page.lang == "en" %}{% assign en = true %}{% endif %}
+<article class="app">
+  {% if page.ref %}{% assign others = site.pages | where: "ref", page.ref %}<p class="meta">{% for t in others %}{% if t.lang != page.lang %}<a href="{{ t.url | relative_url }}" hreflang="{{ t.lang }}" lang="{{ t.lang }}">{% if t.lang == "en" %}English{% else %}Español{% endif %}</a>{% endif %}{% endfor %}</p>{% endif %}
+  <header class="app-head">
+    <img class="icon" src="{{ app.icon | relative_url }}" alt="" width="96" height="96">
+    <div>
+      <h1>{% if en and app.name_en %}{{ app.name_en }}{% else %}{{ app.name }}{% endif %}</h1>
+      <p class="tagline">{% if en %}{{ app.tagline_en }}{% else %}{{ app.tagline }}{% endif %}</p>
+      <a class="cta-button" href="{{ app.url }}">{% if en %}View on the App Store{% else %}Ver en el App Store{% endif %}</a>
+      {% if page.facts %}<p class="meta">{{ page.facts }}</p>{% endif %}
+    </div>
+  </header>
+
+  {% if page.shots %}<div class="shots-row" tabindex="0" aria-label="{% if en %}Screenshots{% else %}Capturas{% endif %}">
+    {% for shot in page.shots %}<img src="{{ shot.src | relative_url }}" alt="{{ shot.alt }}" loading="lazy" width="{{ shot.width | default: 600 }}" height="{{ shot.height | default: 1304 }}">
+    {% endfor %}</div>{% endif %}
+
+  {{ content }}
+
+  {% assign guides = site.posts | where: "app", page.app | where: "lang", page.lang %}{% if guides.size > 0 %}
+  <h2>{% if en %}Guides{% else %}Guías{% endif %}</h2>
+  <ul class="posts">
+  {% for post in guides %}<li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  {% endfor %}</ul>{% endif %}
+
+  <p class="meta"><a href="{{ app.legal }}">{% if en %}Privacy{% else %}Privacidad{% endif %}</a> · <a href="{{ app.legal }}support/">{% if en %}Support{% else %}Soporte{% endif %}</a></p>
+</article>

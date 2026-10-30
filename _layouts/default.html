@@ -12,8 +12,9 @@
 </head>
 <body>
 <header class="site">
-  <a href="{{ '/' | relative_url }}">roberib</a>
-  {% if page.lang == "en" %}<a href="{{ '/en/blog/' | relative_url }}">Blog</a>{% else %}<a href="{{ '/blog/' | relative_url }}">Blog</a>{% endif %}
+  {% if page.lang == "en" %}<a href="{{ '/en/' | relative_url }}">roberib</a>
+  <a href="{{ '/en/blog/' | relative_url }}">Blog</a>{% else %}<a href="{{ '/' | relative_url }}">roberib</a>
+  <a href="{{ '/blog/' | relative_url }}">Blog</a>{% endif %}
 </header>
 <main>
 {{ content }}
